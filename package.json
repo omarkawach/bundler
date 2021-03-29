@@ -1,0 +1,38 @@
+{
+  "name": "geo-explorer",
+  "version": "1.0.0",
+  "description": "CSGE",
+  "main": "main.js",
+  "dependencies": {
+    "@arcgis/core": "^4.18.1",
+    "@babel/core": "^7.12.16",
+    "@esri/arcgis-rest-portal": "^3.0.3",
+    "@esri/arcgis-rest-request": "^3.0.3",
+    "esri-loader": "^3.0.0",
+    "install": "^0.13.0",
+    "npm": "^6.14.11",
+    "rollup": "^1.20.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "scripts": {
+    "geo-explorer": "rollup -c ./config/geo-explorer.rollup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SGC-CGS/geo-explorer.git"
+  },
+  "keywords": [
+    "geo-explorer"
+  ],
+  "author": "Omar Kawach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SGC-CGS/geo-explorer/issues"
+  },
+  "homepage": "https://github.com/SGC-CGS/geo-explorer#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.13.10",
+    "rollup-plugin-copy": "^3.4.0"
+  }
+}
